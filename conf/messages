@@ -1,0 +1,9 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+nombre = Nombre
+aPaterno = Apellido Paterno
+aMaterno = Apellido Materno
+password = Contraseña
+fechaNacimiento = Fecha de Nacimiento
