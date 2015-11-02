@@ -4,8 +4,6 @@
 
 # Home page
 GET     /                                       Application.index
-GET     /login                                  Application.login
-POST    /autenticar/login                       Application.autenticar
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
