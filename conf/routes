@@ -11,5 +11,11 @@ GET     /favicon.ico                            404
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 
+#Details page
+GET     /posts/{id}                             Application.show
+
+#Catalgo
+POST    /posts/{postId}/comments                Application.postComment
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}

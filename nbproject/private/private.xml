@@ -4,9 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/app/controllers/Application.java</file>
+            <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/app/models/Post.java</file>
             <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/conf/routes</file>
-            <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/conf/messages</file>
-            <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/conf/application.conf</file>
+            <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/app/views/Application/show.html</file>
+            <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/app/views/tags/display.html</file>
+            <file>file:/home/arturo/Dropbox/NetbeansProjects/yabe/app/views/main.html</file>
         </group>
     </open-files>
 </project-private>
