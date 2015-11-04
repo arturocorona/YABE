@@ -4,7 +4,9 @@
 GET     /                                       Application.index
 
 #Details page
-GET     /posts/{id}                             Application.show
+GET     /posts/{<[0-9]+>id}                     Application.show
+
+GET     /posts/{tag}                            Application.listTagged
 
 #Catalgo
 POST    /posts/{postId}/comments                Application.postComment

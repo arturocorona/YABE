@@ -43,6 +43,15 @@ public class Application extends Controller {
     }
     
     /**
+     * Método que renderiza la listTagged
+     * @param tag 
+     */
+    public static void listTagged(String tag) {
+        List<Post> posts = Post.findTaggedWith(tag);
+        render(tag, posts);
+    }
+    
+    /**
      * Método que agrega un nuevo comentario a un Post.
      * @param postId
      * @param author
