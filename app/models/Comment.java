@@ -2,6 +2,8 @@ package models;
  
 import java.util.*;
 import javax.persistence.*;
+import play.data.validation.MaxSize;
+import play.data.validation.Required;
  
 import play.db.jpa.*;
  
@@ -11,14 +13,20 @@ import play.db.jpa.*;
  */
 public class Comment extends Model {
  
+    @Required
     public String author;
+    
+    @Required
     public Date postedAt;
      
     @Lob
+    @Required
+    @MaxSize(10000)
     public String content;
     
     @ManyToOne
-    public Post post;
+    @Required
+    public Post post; 
     
     /**
      * Método constructor de Comment

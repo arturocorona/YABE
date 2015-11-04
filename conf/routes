@@ -21,3 +21,6 @@ GET     /captcha                                Application.captcha
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
+
+# Importar routes del módulo CRUD
+*      /admin              module:crud
