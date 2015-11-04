@@ -1,15 +1,7 @@
-# Routes
-# This file defines all application routes (Higher priority routes first)
-# ~~~~
+# R  O  U  T  E  S
 
 # Home page
 GET     /                                       Application.index
-
-# Ignore favicon requests
-GET     /favicon.ico                            404
-
-# Map static resources from the /app/public folder to the /public path
-GET     /public/                                staticDir:public
 
 #Details page
 GET     /posts/{id}                             Application.show
@@ -17,5 +9,13 @@ GET     /posts/{id}                             Application.show
 #Catalgo
 POST    /posts/{postId}/comments                Application.postComment
 
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+GET     /captcha                                Application.captcha
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
