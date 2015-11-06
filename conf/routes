@@ -25,6 +25,10 @@ GET     /favicon.ico                            404
 # Importar routes del módulo CRUD
 GET     /admin/?                                Admin.index
 *       /admin                                  module:crud
+GET     /admin/myPosts/{id}                     Admin.form
+GET     /admin/new                              Admin.form
+POST    /admin/myPosts/{id}                     Admin.save
+POST    /admin/new                              Admin.save
 
 # Importar rutas de Secure
 *       /                                       module:secure
