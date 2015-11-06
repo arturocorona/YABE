@@ -6,3 +6,4 @@ require:
     - com.google.code.gson -> gson 2.4
     - play -> crud
     - play -> secure
+    - play -> cobertura 2.4
