@@ -5,3 +5,4 @@ require:
     - play
     - com.google.code.gson -> gson 2.4
     - play -> crud
+    - play -> secure

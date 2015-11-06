@@ -23,4 +23,8 @@ GET     /captcha                                Application.captcha
 GET     /favicon.ico                            404
 
 # Importar routes del módulo CRUD
-*      /admin              module:crud
+GET     /admin/?                                Admin.index
+*       /admin                                  module:crud
+
+# Importar rutas de Secure
+*       /                                       module:secure

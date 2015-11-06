@@ -20,3 +20,8 @@ email=Email
 password=Password
 fullname=Full name
 isAdmin=User is admin
+
+#secure
+secure.username=Your email:
+secure.password=Your password:
+secure.signin=Log in now
